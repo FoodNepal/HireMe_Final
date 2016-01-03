@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#ffffff"
+    tools:context="com.example.bishal.toolbartest.HireForm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textView1"
+        android:gravity="center_vertical"
+        android:text="Job Title: "
+        android:textColor="#006699"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText1"
+        android:layout_below="@+id/textView1"
+        android:background="#bdebf8"
+        android:hint="Enter job tile here"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText1"
+        android:gravity="center_vertical"
+        android:text="Payment"
+        android:textColor="#006699"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView2"
+        android:background="#bdebf8"
+        android:hint="Enter price range"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:gravity="center_vertical"
+        android:text="Job Description"
+        android:textColor="#006699"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:id="@+id/editText3"
+        android:background="#bdebf8"
+        android:hint="Short Description about the job"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#006699"
+        android:text="Submit"
+        android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:onClick="submitForm"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

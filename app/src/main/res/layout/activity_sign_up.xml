@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.bishal.toolbartest.Login">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Name"
+            android:textColor="#727272"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="#455a64"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Age"
+            android:textColor="#727272"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="#455a64"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Username"
+            android:textColor="#727272"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="#455a64"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Password"
+            android:textColor="#727272"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="#455a64"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#006699"
+            android:text="Register"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="CustomActionBarTheme" parent="CustomActionBarTheme.Base">
+
+                <item name="colorPrimary">@color/primaryColor</item>
+                <item name="colorPrimaryDark">@color/primaryColorDark</item>
+                <item name="android:colorAccent">@color/accentColor</item>
+                <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+                <item name="android:navigationBarColor">@color/colorNavigationBar</item>
+                <item name="android:windowTranslucentStatus">true</item>
+                <item name="android:colorControlHighlight">@color/colorHighlight</item>
+
+
+        </style>
+</resources>
